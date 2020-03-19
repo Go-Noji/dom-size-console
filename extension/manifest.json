@@ -1,0 +1,24 @@
+{
+	"name": "DOM size console",
+	"version": "0.0.1",
+	"description": "Display DOM size on screen.",
+	"default_locale": "en",
+	"content_scripts": [{
+		"js": ["page.bundle.js"],
+		"matches": ["http://*/*", "https://*/*"]
+	}],
+	"browser_action": {
+		"default_icon": {
+			"128": "128.png"
+		},
+		"default_title": "hoge",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"128": "128.png",
+		"48": "48.png",
+		"32": "32.png"
+	},
+	"permissions": ["tabs", "storage"],
+	"manifest_version": 2
+}
