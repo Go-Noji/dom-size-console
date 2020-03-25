@@ -87,7 +87,7 @@ const afterDOMLoaded = () => {
     }
 
     // 0.1 秒後に登録
-    timer = setTimeout(restore, 100);
+    timer = window.setTimeout(restore, 100);
   });
 
   //全ての DOM にホバーイベントを登録
