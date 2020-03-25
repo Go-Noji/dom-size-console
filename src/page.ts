@@ -32,7 +32,7 @@ const afterDOMLoaded = () => {
     area.textContent = window.innerWidth+' x '+window.innerHeight;
     area.style.padding = '10px';
     area.style.color = '#1d1d1d';
-    area.style.backgroundColor = '#FFF9C4';
+    area.style.backgroundColor = 'rgba(250, 250, 250, .8)';
     box.appendChild(area);
   };
 
@@ -50,7 +50,7 @@ const afterDOMLoaded = () => {
     area.textContent = width+' x '+height;
     area.style.padding = '10px';
     area.style.color = '#1d1d1d';
-    area.style.backgroundColor = '#FFF9C4';
+    area.style.backgroundColor = 'rgba(250, 250, 250, .8)';
     box.appendChild(area);
   };
 
